@@ -1,9 +1,12 @@
 package com.jmletona;
 
+import lombok.Data;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+@Data
 public class MakeTXT {
     String name;
     String path;
@@ -27,16 +30,4 @@ public class MakeTXT {
             e.printStackTrace();
         }
     }
-    // SETTERS & GETTERS
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
-
 }

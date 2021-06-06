@@ -1,5 +1,7 @@
 package com.jmletona;
 
+import lombok.Data;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -22,6 +24,7 @@ import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
 import javax.mail.BodyPart;
 
+@Data
 public class Mail {
 
     private final Properties properties;

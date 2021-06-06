@@ -1,5 +1,7 @@
 package com.jmletona;
 
+import lombok.Data;
+
 import javax.mail.MessagingException;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,6 +11,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@Data
 public class Subject {
 
     //initialization of variables
@@ -25,24 +28,12 @@ public class Subject {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     //constructor
@@ -51,6 +42,8 @@ public class Subject {
         this.id = Id;
         this.email = Email;
     }
+
+
 
     //load data from file
     public void loadData() {
@@ -323,16 +316,16 @@ public class Subject {
         studentsRepeatedGradesList.add(titleGrades);
 
 
-        int contador = 0;
+        int counter = 0;
         double aux = arrangeList.get(0);
         for (Double aDouble : arrangeList) {
             if (aux == aDouble) {
-                contador++;
+                counter++;
             } else {
-                contador = 1;
+                counter = 1;
                 aux = aDouble;
             }
-            if (maxRepeated == contador) {
+            if (maxRepeated == counter) {
                 addStudentsToList(aDouble, studentsRepeatedGradesList);
             }
         }
@@ -349,18 +342,18 @@ public class Subject {
 
     //max Repetition Grade
     private double mostRepeatedGrade(ArrayList<Double> arrangeList) {
-        int contador = 0;
+        int counter = 0;
         double maxRepeated = 0.0;
         double aux = arrangeList.get(0);
         for (Double aDouble : arrangeList) {
             if (aux == aDouble) {
-                contador++;
+                counter++;
             } else {
-                contador = 1;
+                counter = 1;
                 aux = aDouble;
             }
-            if (maxRepeated < contador) {
-                maxRepeated = contador;
+            if (maxRepeated < counter) {
+                maxRepeated = counter;
             }
         }
         return maxRepeated;

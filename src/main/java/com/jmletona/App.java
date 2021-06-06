@@ -1,9 +1,11 @@
 package com.jmletona;
 
+import lombok.Data;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-
+@Data
 public class App{
 
     /***************************************************************************

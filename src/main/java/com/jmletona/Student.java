@@ -1,5 +1,8 @@
 package com.jmletona;
 
+import lombok.Data;
+
+@Data
 public class Student {
     String Name;
     double Grade;
@@ -10,13 +13,5 @@ public class Student {
 
     public void setGrade(String grade) {
         Grade = Double.parseDouble(grade);
-    }
-
-    public String getName() {
-        return Name;
-    }
-
-    public void setName(String name) {
-        Name = name;
     }
 }
