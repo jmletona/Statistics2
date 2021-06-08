@@ -1,0 +1,41 @@
+---------------------- Subject ----------
+Advanced Python
+---------------------- Students ---------
+20 Students
+Carlos, 10.0
+Pepe, 8.0
+María, 7.0
+Letona, 6.0
+José, 5.0
+Manuel, 4.0
+Roxy, 3.0
+Mario, 2.0
+Enrique, 1.0
+Renato, 0.0
+Mateo, 8.0
+Ariana, 8.0
+Silvia, 10.0
+Eliseo, 9.0
+Karla, 7.0
+Esteban, 3.0
+Marina, 2.0
+Luis, 1.0
+Julio, 0.0
+Letona, 5.67
+---------------------- Average ---------
+Average, 4.98
+---------------------- Max Grade -------
+MaxGrade, 10.0
+Carlos, 10.0
+Silvia, 10.0
+---------------------- Min Grade -------
+MinGrade, 0.0
+Renato, 0.0
+Julio, 0.0
+---------------------- Max Repeated ----
+Max Repetition, 3.0
+Pepe, 8.0
+Mateo, 8.0
+Ariana, 8.0
+----------------------------------------
+Sending report by email to jmletona@gmail.com...

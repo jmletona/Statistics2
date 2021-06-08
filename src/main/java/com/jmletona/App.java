@@ -20,6 +20,7 @@ public class App{
             {"Ethical Hacking", "jmletona@gmail.com"},
             {"Machine Learning","hello@jmletona.com"},
             {"Project Manager","jmletona@gmail.com"}
+
     };
 
     public static Object[] objSubjects =initialize();

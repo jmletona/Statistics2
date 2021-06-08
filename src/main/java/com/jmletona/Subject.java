@@ -65,9 +65,9 @@ public class Subject {
             myReader.close();
             System.out.println(important+studentsList.size()+" Total students - "+ this.getName()+".");
         } catch (FileNotFoundException e) {
-            System.out.println(important + "An error occurred loading file..."
+            System.out.println(important + "An error occurred loading file...\n"
                     + e
-                    + "Expected file: "
+                    + "\nExpected file: "
                     + ("./src/main/java/com/jmletona/subjectsData/"
                     + filename
                     + ".txt"));
