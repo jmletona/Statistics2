@@ -1,6 +1,6 @@
 mail.smtp.host=smtp.gmail.com
 mail.smtp.port=587
-mail.smtp.user=jmletona@gmail.com
-mail.smtp.password=mariafernanda7
+mail.smtp.user=
+mail.smtp.password=
 mail.smtp.starttls.enable=true
 mail.smtp.auth=true
